@@ -9,21 +9,35 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <title>Adam Bovzdarenko</title>
 </head>
+<style type="text/css">
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 4px;
+        background: rgb(10, 10, 10);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #44a1a0;
+        -webkit-border-radius: 1ex;
+    }
+</style>
 <body>
     <header>
         <a href="#" class="logo"></></a>
 
         <nav>
-            <a href="#" class="active"> Home</a>
+            <a href="#"> Home</a>
+            <a href="#about">About</a>
             <a href="#">My projects</a>
             <a href="#">Skills & Education</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
         </nav>
     </header>
+    <a id="#home"></a>
     <section class="home">
         <div class="home-img">
-            <img src="https://i.imgur.com/CnYwdFI.png" alt="">
+            <img src="img/me.png" id="home" alt="">
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Adam</span></h1>
@@ -36,6 +50,22 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <a href="#" class="btn">Contact me</a>
+        </div>
+    </section>
+    <section class="home-about">
+        <div class="home-content" id="about">
+            <h1>About <span>me?</span></h1>
+            <a></a>
+            <p>
+                <br />I'm Adam Bovzdarenko, a passionate game developer and software engineer with a strong foundation in both game design and software development. With over three years of experience in game development and software engineering, I combine creativity with technical expertise to deliver impactful projects.<br /><br />
+
+                Born in Mariupol, Ukraine, I spent my early years nurturing a deep love for technology, especially computers and video games. By the age of 14, I had mastered the fundamentals of game development, and by 17, I expanded my skill set to include market analysis, understanding how to position games for success in a competitive industry.
+
+                Through continuous learning and hands-on experience, I’ve developed a strong capability to work both independently and collaboratively, fostering trust and innovation in teams. Whether working on game design or software solutions, I approach every project with dedication, creativity, and a commitment to excellence.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="img/projects.png" id="home" alt="">
         </div>
     </section>
 </body>
